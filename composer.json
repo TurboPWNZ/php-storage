@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "index0h\\log\\": "src"
+            "index0h\\storage\\": "src"
         }
     }
 }
