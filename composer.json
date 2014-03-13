@@ -1,0 +1,29 @@
+{
+    "name": "index0h/storage",
+    "description": "Storage is file manager for upload/download files and linking them in database",
+    "version": "0.0.1",
+    "keywords": ["storage", "file", "database"],
+    "homepage": "https://github.com/index0h/php-storage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Levishchenko",
+            "email": "index.0h@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/index0h/php-storage/issues",
+        "source": "https://github.com/index0h/php-storage"
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "1.8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "index0h\\log\\": "src"
+        }
+    }
+}
