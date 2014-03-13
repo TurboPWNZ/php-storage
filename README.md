@@ -8,37 +8,37 @@ php-storage
 Storage is file manager for upload/download files and linking them in database
 ------------------------------------------------------------------------------
 
- ## Installation
+## Installation
 
- The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
- ```sh
- php composer.phar require --prefer-dist index0h/storage "*"
- ```
+```sh
+php composer.phar require --prefer-dist index0h/storage "*"
+```
 
- or add line to require section of `composer.json`
+or add line to require section of `composer.json`
 
- ```json
- "index0h/storage": "*"
- ```
+```json
+"index0h/storage": "*"
+```
 
- ## Usage
+## Usage
 
- TODO
+TODO
 
- ## Testing
+## Testing
 
- #### Run tests from IDE (example for PhpStorm)
+#### Run tests from IDE (example for PhpStorm)
 
- - Select Run/Debug Configuration -> Edit Configurations
- - Select Add New Configuration -> PHP Script
- - Type:
-     * File: /path/to/yii-phar/.test.php
-     * Arguments run: run  --coverage --html
- - OK
+- Select Run/Debug Configuration -> Edit Configurations
+- Select Add New Configuration -> PHP Script
+- Type:
+    * File: /path/to/yii-phar/.test.php
+    * Arguments run: run  --coverage --html
+- OK
 
- #### Run tests from console
+#### Run tests from console
 
- ```sh
- make test
- ```
+```sh
+make test
+```
